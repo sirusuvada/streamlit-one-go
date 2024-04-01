@@ -24,7 +24,7 @@ if(st.button('miss avtunna herrooo')):
     "You shine brightly, and those who truly see you will cherish you for who you are.3",
     "I promise to have a heartfelt conversation with my parents to clear up any misunderstandings."
 ])
-  st.subheader("click below once more ra ")  
+st.subheader("click below once more ra ")  
 if(st.button('touch me')):
   st.write(" i use chat gpt for all these to make you feel some what better ra , i know i cant do right now ,,but small try")
 
