@@ -18,12 +18,12 @@ elif(radioButton == 'no heroo'):
 
 st.subheader("click below one  ")                                  # Button
 if(st.button('miss avtunna herrooo')):
-    st.write('[
+    st.write([
     "Mounu, remember that your worth isn't determined by anyone's opinion ",
     "especially not by misunderstandings.",
     "You shine brightly, and those who truly see you will cherish you for who you are.3",
     "I promise to have a heartfelt conversation with my parents to clear up any misunderstandings."
-]')
+])
   st.subheader("click below once more ra ")  
 if(st.button('touch me')):
   st.write(" i use chat gpt for all these to make you feel some what better ra , i know i cant do right now ,,but small try")
