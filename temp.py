@@ -32,14 +32,14 @@ if(st.checkbox('Adult')):                               # Checkbox with Validati
     st.write("You're an adult!")
 
 
-st.subheader('Radio Button')                            # Radio Button
-radioButton = st.radio('Select : ', ('Male','Female','Other'))
-if(radioButton == 'Male'):
-    st.write("You're a Male")
-elif(radioButton == 'Female'):
-    st.write("You're a Female")
-elif(radioButton == 'Other'):
-    st.write("You're an Other Gender")
+st.subheader('Bayanga unda nanna')                            # Radio Button
+radioButton = st.radio('edo okati select chey nanna : ', ('chaala ','ippudu kasta ok','no heroo'))
+if(radioButton == 'chaala'):
+    st.write("Kanna anni saddukuntayi ra")
+elif(radioButton == 'ippudu kasta ok'):
+    st.write("idi click chestav ani expect cheyle ra")
+elif(radioButton == 'no heroo'):
+    st.write("idi click chestav ani expect cheyle ra")
 
 st.subheader('Select Box')                              # SelectBox
 selectBox =  st.selectbox("Data Science : ", [  'Data Analsis', 'Web Scraping','Machine Learning',
