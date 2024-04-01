@@ -1,13 +1,13 @@
 import streamlit as st
 
-st.title('Title -> GeeksForGeeks')                      # Title
+st.title('Mounu Love you ra')                      # Title
 st.header('Header -> GeeksForGeeks')                    # Header
 st.subheader('Subheader -> GeeksForGeeks')              # SubHeader
 st.text('Text -> GeeksForGeeks')                        # Text
 
 st.markdown('# Hi')                                     # Markdown
 
-st.success('Success!')                                  # Success
+st.success('Mounu Love you ra')                                  # Success
 st.info('Information!')                                 # Info
 st.warning('Warning!')                                  # Warning
 st.error('Error!')                                      # Error
