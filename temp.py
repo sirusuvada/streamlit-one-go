@@ -33,9 +33,9 @@ if(st.checkbox('Adult')):                               # Checkbox with Validati
 
 
 st.subheader('Bayanga unda nanna')                            # Radio Button
-radioButton = st.radio('edo okati select chey nanna : ', ('chaala ','ippudu kasta ok','no heroo'))
+radioButton = st.radio('edo okati select chey nanna : ', ('no heroo ','ippudu kasta ok','chaala'))
 if(radioButton == 'chaala'):
-    st.write("Kanna anni saddukuntayi ra")
+    st.write("Kanna anni saddukuntayi ra feel free")
 elif(radioButton == 'ippudu kasta ok'):
     st.write("idi click chestav ani expect cheyle ra")
 elif(radioButton == 'no heroo'):
