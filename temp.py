@@ -14,6 +14,6 @@ hobbies = st.text_input('Write about your hobbies here:')
 
 if hobbies:
     st.write("Hobbies entered:", hobbies)
-    with open('hobbies.txt', 'a') as file:
+    with open('pavan.txt', 'a') as file:
         file.write(hobbies + '\n')
         st.write("Hobbies written to hobbies.txt")
