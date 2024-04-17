@@ -14,6 +14,6 @@ hobbies = st.text_input('Write about your hobbies here:')
 
 if hobbies:
     st.write("Hobbies entered:", hobbies)
-    with open(https://github.com/sirusuvada/streamlit-one-go/blob/main/pavan.txt, 'a') as file:
+    with open(main/pavan.txt, 'a') as file:
         file.write(hobbies + '\n')
         st.write("Hobbies written to hobbies.txt")
